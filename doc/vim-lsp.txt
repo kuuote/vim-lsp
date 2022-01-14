@@ -1577,6 +1577,10 @@ Gets the hover information and displays it in the |preview-window|.
    be set to enable a floating preview at the cursor which is closed
    automatically on cursormove if not focused and can be closed with <esc> if
    focused.
+ * If I don't want mapping to <esc> when floating preview,
+   you can mapping anything to `<Plug>(lsp-float-close)`.
+   For example: `nmap <Plug>() <Plug>(lsp-float-close)`
+   
 
     Example: >
 	:LspHover
